@@ -13,3 +13,41 @@ h1, h2, h3, h4, h5, h6 {
   color: blue;
   text-align: center;
 }
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: purple;
+}
+.nav li {
+  float: left;
+}
+.nav li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Audiowide";
+}
+.nav li a:hover {
+  background-color: #4d004d;
+}
+.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: purple;
+}
+.sidenav li a {
+  display: block;
+  text-decoration: none;
+  color: blue;
+  font-family: "Audiowide";
+  padding: 8px 16px;
+}
+.sidenav li a:hover {
+  background-color: #4d004d;
+}
