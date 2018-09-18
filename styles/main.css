@@ -30,6 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 14px 16px;
   text-decoration: none;
   font-family: "Audiowide";
+  transition: 0.3s;
 }
 .nav li a:hover {
   background-color: #4d004d;
@@ -47,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   color: blue;
   font-family: "Audiowide";
   padding: 8px 16px;
+  transition: 0.3s;
 }
 .sidenav li a:hover {
   background-color: #4d004d;
