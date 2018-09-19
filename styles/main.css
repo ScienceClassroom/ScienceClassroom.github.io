@@ -79,3 +79,9 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   display: block;
 }
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #000099;
+}
